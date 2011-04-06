@@ -2,7 +2,7 @@ dir for Node.js
 ===============
 
 You ever used Firebug? You know the awesome `dir` function its console has?
-Well, this is that, but for Node.
+Well, this is like that, but for Node.
 
 That means you get *real* object inspection that goes up the prototype chain,
 not the pansy-ass, weak-sauce "inspection" Node's `util.inspect` gives you.
