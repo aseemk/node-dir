@@ -1,0 +1,9 @@
+{
+    "name": "dir",
+    "description": "The missing dir() function for the shell, like Firebug's.",
+    "version": "0.1.0",
+    "author": "Aseem Kishore <aseem.kishore@gmail.com>",
+    "keywords": ["dir", "shell", "firebug", "util", "inspect"],
+    "main": "./dir.js",
+    "engines": {"node": "*"}
+}
