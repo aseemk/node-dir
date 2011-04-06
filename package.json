@@ -4,6 +4,11 @@
     "version": "0.1.0",
     "author": "Aseem Kishore <aseem.kishore@gmail.com>",
     "keywords": ["dir", "shell", "firebug", "util", "inspect"],
+    "homepage": "https://github.com/aseemk/node-dir",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/aseemk/node-dir.git"
+    },
     "main": "./dir.js",
     "engines": {"node": "*"}
 }
