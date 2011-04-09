@@ -1,7 +1,7 @@
 {
     "name": "dir",
     "description": "Firebug-like dir() for Node.",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "Aseem Kishore <aseem.kishore@gmail.com>",
     "keywords": ["dir", "shell", "firebug", "util", "inspect"],
     "homepage": "https://github.com/aseemk/node-dir",

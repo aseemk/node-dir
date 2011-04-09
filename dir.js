@@ -4,10 +4,13 @@
 // Author: Aseem Kishore <aseem.kishore@gmail.com>
 // License: MIT <http://www.opensource.org/licenses/mit-license.php>
 
-// TODO assigning global.dir (or root.dir or this.dir) like we're doing seems to
-// have no effect when require()'ing from the console. why??
+// TODO assigning global.dir (or root.dir or this.dir) has no effect when req'd
+// from the shell, so took it out. can we get it some way just for the shell?
 
-global.dir = console.dir = module.exports = function dir(obj) {
+// TODO can we detect whether we're being require()-ed from the shell or from a
+// file? if file, we should console.log() the result, not (just) return it.
+
+console.dir = module.exports = function dir(obj) {
     
     if (obj === null || obj === undefined) {
         return obj;
