@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/aseemk/node-dir.png)](http://travis-ci.org/aseemk/node-dir)
 dir for Node.js
 ===============
 
